@@ -1,0 +1,17 @@
+th {
+  background: #38344c;
+  color: white;
+  font-weight: 500;
+  padding: 7px 10px;
+}
+td {
+  padding: 10px;
+  
+}
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: hsl(0, 0%, 95%);
+}
+
